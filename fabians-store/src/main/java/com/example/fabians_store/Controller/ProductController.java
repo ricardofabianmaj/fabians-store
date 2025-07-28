@@ -3,6 +3,7 @@ package com.example.fabians_store.Controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,6 +16,7 @@ import com.example.fabians_store.DTO.AtualizacaoProdutoDTO;
 import com.example.fabians_store.Models.Product.Product;
 import com.example.fabians_store.Service.ProductService;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/")
 public class ProductController {
