@@ -100,21 +100,6 @@ O frontend estará disponível em:
 
 ---
 
-### Instale os pacotes de teste:
-
-```bash
-cd fabians-store-frontend
-npm install --save-dev jest @testing-library/react @testing-library/jest-dom
-```
-
-### Execute os testes:
-
-```bash
-npm test
-```
-
----
-
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT.  
@@ -229,19 +214,6 @@ Frontend will run at:
 📍 `http://localhost:3000`
 
 ---
-
-##### Install testing packages:
-
-```bash
-cd fabians-store-frontend
-npm install --save-dev jest @testing-library/react @testing-library/jest-dom
-```
-
-##### Run tests:
-
-```bash
-npm test
-```
 
 ### 📄 License
 
